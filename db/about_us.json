@@ -1,0 +1,23 @@
+[
+  {
+    "id": "0",
+    "name": "Suxrob",
+    "img_url": "",
+    "contacts": {
+      "phone": "+998 97 521 51 15",
+      "telegram": "#",
+      "instagram": "#"
+    }
+  },
+
+  {
+    "id": "1",
+    "name": "Jamshid",
+    "img_url": "",
+    "contacts": {
+      "phone": "+998 90 488 24 04",
+      "telegram": "https://t.me/@ErgashevJamshid_04",
+      "instagram": "#"
+    }
+  }
+]

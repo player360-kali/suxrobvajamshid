@@ -1,0 +1,43 @@
+[
+  {
+    "id": "0",
+    "icon_url": "./img/scissors_icon.png",
+    "title": "HAIRCUT & BEARD TRIM",
+    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+  },
+
+  {
+    "id": "1",
+    "icon_url": "./img/razor_icon.png",
+    "title": "SHAVES & HAIRCUT",
+    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+  },
+
+  {
+    "id": "2",
+    "icon_url": "./img/beard_icon.png",
+    "title": "FACIAL & SHAVE",
+    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+  },
+
+  {
+    "id": "3",
+    "icon_url": "./img/facial_icon.png",
+    "title": "FACIAL",
+    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+  },
+
+  {
+    "id": "4",
+    "icon_url": "./img/mustache_icon.png",
+    "title": "MUSTACHE TRIMMING",
+    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+  },
+
+  {
+    "id": "5",
+    "icon_url": "./img/hair_icon.png",
+    "title": "HAIR STYLING",
+    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+  }
+]

@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="http://127.0.0.1:8080/" />
+        <meta name="description" content="Barbershop Suxrob va Jamshid" />
+        <link href="./img/Logo.png" rel="icon" type="image/x-icon" />
+        <link href="./css/style.css" rel="stylesheet" type="text/css" />
+        <title>BARBERSHOP</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav_icon">
+                    <img src="./img/logo.png" alt="Barbershop logo" />
+                </div>
+
+                <div class="nav_links">
+                    <ul>
+                        <li>
+                            <a href="#" id="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#about-us">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav_mobile">
+                    <div class="nav_icon" onclick="modal()">
+                        <img src="./img/navbar.png" />
+                    </div>
+                </div>
+
+                <div class="mobile_navlinks">
+                    <div class="mobile_navigations">
+                        <h4>Navigations</h4>
+                        <img
+                            class="mobile_close"
+                            src="./img/close_icon.svg"
+                            alt="closer"
+                            onclick="modal()"
+                        />
+                    </div>
+                    <ul>
+                        <li>
+                            <a onclick="modal()" href="#" id="active">Home</a>
+                        </li>
+                        <li>
+                            <a onclick="modal()" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a onclick="modal()" href="#about-us">About Us</a>
+                        </li>
+                        <li>
+                            <a onclick="modal()" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="mobile_btn" onclick="modal()">
+                        <button id="btn">BOOK APPOINTMENT</button>
+                    </div>
+                </div>
+
+                <div class="nav_btn">
+                    <button id="btn">BOOK APPOINTMENT</button>
+                </div>
+            </nav>
+
+            <div class="header_container" id="container">
+                <div class="header_title">
+                    <article>
+                        <h1>WELCOME TO SUXROB AND JAMSHID'S BARBERSHOP!</h1>
+                        <h4>
+                            Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown printer
+                            took a galley of type and scrambled it to make a
+                            type specimen book.
+                        </h4>
+                        <div class="header_buttons">
+                            <button id="btn" class="header_title--btn1">
+                                BOOK
+                            </button>
+                            <button id="btn" class="header_title--btn2">
+                                CONTACT
+                            </button>
+                        </div>
+                    </article>
+                </div>
+                <div class="header_img">
+                    <img src="./img/banner_bg.png" />
+                </div>
+            </div>
+        </header>
+
+        <section id="services">
+            <div class="container" id="container">
+                <div class="services_title">
+                    <article>
+                        <h4>OUR TREATMENT</h4>
+                        <h2>SERVICES</h2>
+                    </article>
+                </div>
+
+                <div class="services_cards"></div>
+                <div class="services_btn">
+                    <button id="btn">EXPLORE NOW</button>
+                </div>
+            </div>
+            <div class="services_about">
+                <div>
+                    <img src="./img/razor_icon-2.png" alt="razor icon" />
+                    <span>2500</span>
+                    <h2>SHAVES</h2>
+                </div>
+                <div>
+                    <img src="./img/scissors_icon.png" alt="scissors icon" />
+                    <span>4500</span>
+                    <h2>HAIRCUTS</h2>
+                </div>
+                <div>
+                    <img
+                        src="./img/barbershop_icon.png"
+                        alt="barbershop icon"
+                    />
+                    <span>2</span>
+                    <h2>OPEN SHOPS</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="price">
+            <div class="price_container" id="container">
+                <div class="price_cards"></div>
+
+                <div class="price_banner">
+                    <div class="price_banner_title">
+                        <div class="banner_title_container">
+                            <h4>THIS WEEKS NEW PRODUCT</h4>
+                            <h2>25% DISCOUNT</h2>
+                            <p>
+                                Curabitur vulputate arcu odio, ac facilisis diam
+                                accumsan ut. Ut imperdiet et leo in vulputate.
+                                Sed eleifend lacus eu sapien sagittis imperdiet.
+                            </p>
+                            <button id="btn">BUY NOW</button>
+                        </div>
+                    </div>
+                    <div class="price_banner_img">
+                        <img src="../img/banner_bg.png" alt="Banner img" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-us">
+            <div class="about-us_container" id="container">
+                <div class="about-us_title">
+                    <h4>ABOUT US</h4>
+                    <h2>OUR BARBERS</h2>
+                </div>
+
+                <div class="about-us_cards"></div>
+            </div>
+        </section>
+
+        <section id="brands">
+            <div class="brands_container" id="container">
+                <div class="brands_title">
+                    <h2>BRANDS WE CARRY</h2>
+                    <p>
+                        Vestibulum commodo sapien non elit <br />
+                        porttitor, vitae volutpat nibh mollis. Nulla <br />
+                        porta risus id neque.
+                    </p>
+                </div>
+                <span></span>
+                <div class="brands_imgs">
+                    <img src="./img/brand0.png" alt="Brand 1" />
+                    <img src="./img/brand1.png" alt="Brand 2" />
+                    <img src="./img/brand2.png" alt="Brand 3" />
+                    <img src="./img/brand3.png" alt="Brand 4" />
+                    <img src="./img/brand4.png" alt="Brand 5" />
+                    <img src="./img/brand5.png" alt="Brand 6" />
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="footer_container" id="container">
+                <div class="footer_title">
+                    <h2>CONTACT US</h2>
+                    <p>
+                        Duis pretium gravida enim, vel maximus ligula fermentum
+                        a. Sed rhoncus eget ex id egestas. Nam nec nisl
+                        placerat, tempus erat a, condimentum metusurabitur nulla
+                        nisi.
+                    </p>
+                </div>
+
+                <form class="footer_form" id="footerForm">
+                    <div class="footer_name">
+                        <span>
+                            <label for="name">Your name</label>
+                            <br />
+                            <input type="text" id="name" required />
+                        </span>
+
+                        <span>
+                            <label for="email">Your email</label>
+                            <br />
+                            <input type="email" id="email" />
+                        </span>
+                    </div>
+
+                    <label for="number">Number</label>
+                    <input type="number" id="number" required />
+
+                    <label for="message">Your message</label>
+                    <textarea
+                        required
+                        type="text"
+                        id="message"
+                        style="
+                            width: 100%;
+                            padding: 10px 14px;
+                            font-size: 16px;
+                            resize: none;
+                        "
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+
+                    <input type="submit" value="Send" />
+                </form>
+
+                <div class="footer_about">
+                    <div>
+                        <img src="./img/location_icon.png" alt="Contacts" />
+                        <h4>ADDRESS</h4>
+                        <a
+                            target="_blank"
+                            href="https://maps.app.goo.gl/NUHhQbTb9XCfA8oR7"
+                        >
+                            <p>Jizzax shaxar Tinchlik mahallasi</p>
+                        </a>
+                    </div>
+                    <div>
+                        <img src="./img/email_icon.png" alt="Contacts" />
+                        <h4>EMAIL</h4>
+                        <p>info@company.com</p>
+                    </div>
+                    <div>
+                        <img src="./img/phone_icon.png" alt="Contacts" />
+                        <h4>PHONE</h4>
+                        <span>
+                            <a href="tel:998975215115">
+                                <p>+998 97 521 51 15</p>
+                            </a>
+                            <a href="tel:998904882404">
+                                <p>+998 90 488 24 04</p>
+                            </a>
+                        </span>
+                    </div>
+                    <div>
+                        <img src="./img/clock_icon.png" alt="Contacts" />
+                        <h4>WORKING HOURS</h4>
+                        <span>
+                            <p>Mon - Fri: 10am - 6pm</p>
+                            <p>Sat - Sun: 10am - 6pm</p>
+                        </span>
+                    </div>
+                </div>
+                <span class="footer_border"></span>
+                <div class="footer_copyright">© Copyright Barbershop 2025</div>
+            </div>
+        </footer>
+
+        <script src="./js/script.js" async></script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Barbershop n1 Suxrob va Jamshid",
+                "url": "/",
+                "logo": "./img/Logo.png"
+            }
+        </script>
+    </body>
+</html>

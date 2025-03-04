@@ -1,0 +1,29 @@
+[
+  {
+    "id": "0",
+    "title": "Haircut",
+    "price": "20",
+    "text": "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec."
+  },
+
+  {
+    "id": "1",
+    "title": "Trimming",
+    "price": "15",
+    "text": "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec."
+  },
+
+  {
+    "id": "2",
+    "title": "Shavings",
+    "price": "15",
+    "text": "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec."
+  },
+
+  {
+    "id": "3",
+    "title": "Facial",
+    "price": "20",
+    "text": "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec."
+  }
+]
