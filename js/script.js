@@ -43,10 +43,7 @@ async function fetchCards() {
           <div class="price_card_title">
             <h4>${item.title}</h4>
             <span></span>
-            <h4>$${item.price}</h4>
-          </div>
-          <div class="price_card_text">
-            <p>${item.text}</p>
+            <h4>${item.price} so'm</h4>
           </div>
         </div>
         `;
@@ -89,7 +86,7 @@ async function fetchCards() {
             : ``
         }
       </div>
-      <button id="btn">BOOK</button>
+      <button id="btn">Bog'lanish</button>
       </article>
       </div>
       `;

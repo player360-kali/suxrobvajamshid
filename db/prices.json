@@ -1,29 +1,25 @@
 [
   {
     "id": "0",
-    "title": "Haircut",
-    "price": "20",
-    "text": "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec."
+    "title": "Soch turmagi",
+    "price": "20,000"
   },
 
   {
     "id": "1",
-    "title": "Trimming",
-    "price": "15",
-    "text": "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec."
+    "title": "Soqol olish",
+    "price": "15,00"
   },
 
   {
     "id": "2",
-    "title": "Shavings",
-    "price": "15",
-    "text": "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec."
+    "title": "Soch turmagi (bolalar uchun)",
+    "price": "15,000"
   },
 
   {
     "id": "3",
-    "title": "Facial",
-    "price": "20",
-    "text": "Nulla eleifend pulvinar purus, molestie euismod odio imperdiet ac. Ut sit amet erat nec."
+    "title": "Yuz parvarishi",
+    "price": "20,000"
   }
 ]

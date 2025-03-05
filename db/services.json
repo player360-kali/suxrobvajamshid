@@ -2,42 +2,42 @@
   {
     "id": "0",
     "icon_url": "./img/scissors_icon.png",
-    "title": "HAIRCUT & BEARD TRIM",
-    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+    "title": "Soch qirqish",
+    "text": "Agar sochingiz o'rtacha o'sgan bo'lsa shu turda soch olasiz."
   },
 
   {
     "id": "1",
     "icon_url": "./img/razor_icon.png",
-    "title": "SHAVES & HAIRCUT",
-    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+    "title": "Soqol olish",
+    "text": "Soqolingiz o'sgan bo'lsa shu turda soqol olasiz."
   },
 
   {
     "id": "2",
     "icon_url": "./img/beard_icon.png",
-    "title": "FACIAL & SHAVE",
-    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+    "title": "Soqol parvarishlash",
+    "text": "Soqolingiz chiroyli bo'lishini istasangiz shu turda soqol parvarish qilasiz."
   },
 
   {
     "id": "3",
     "icon_url": "./img/facial_icon.png",
-    "title": "FACIAL",
-    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+    "title": "Soch turmagi",
+    "text": "O'zingizga yoqqan soch turmagini tanlang."
   },
 
   {
     "id": "4",
     "icon_url": "./img/mustache_icon.png",
-    "title": "MUSTACHE TRIMMING",
-    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+    "title": "Mo'ylov olish",
+    "text": ""
   },
 
   {
     "id": "5",
     "icon_url": "./img/hair_icon.png",
-    "title": "HAIR STYLING",
-    "text": "Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+    "title": "Soch parvarishi",
+    "text": "Agar sochingiz to'kilsa yoki noto'g'ri o'ssa shu turga murojat qilasiz"
   }
 ]
