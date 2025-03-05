@@ -26,7 +26,7 @@ async function fetchCards() {
     services_cards.map((item) => {
       services_container.innerHTML += `
         <div class="services_card">
-        <img src="${item.icon_url}" />
+        <img src="${item.icon_url}" alt="${item.title}" />
         <article>
         <h4>${item.title}</h4>
         <p>${item.text}</p>
